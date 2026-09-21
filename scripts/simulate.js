@@ -27,7 +27,6 @@ function show(label, obj) {
 
 async function craftTokenBypassingSoftChecks(wallet, payeeId, amount, counterOverride) {
 
-  // still unforgeable) KeyStore.
   const body = buildTokenBody({
     payerId: wallet.deviceId,
     payeeId,
