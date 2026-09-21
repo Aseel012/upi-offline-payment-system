@@ -24,6 +24,7 @@ module.exports = {
     FROZEN: 'FROZEN'
   },
 
+  
   // Default token expiry window (Section 8.2): short window, advisory timestamp,
   // enforced expiry.
   TOKEN_EXPIRY_MS: 5 * 60 * 1000,
