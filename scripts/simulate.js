@@ -26,9 +26,7 @@ function show(label, obj) {
 }
 
 async function craftTokenBypassingSoftChecks(wallet, payeeId, amount, counterOverride) {
-  // Simulates Section 15.0's "malicious device owner": a tampered app that
-  // skips the honest-client counter-increment/balance-decrement flow and
-  // signs an arbitrary token directly through the (still hardware-backed,
+
   // still unforgeable) KeyStore.
   const body = buildTokenBody({
     payerId: wallet.deviceId,
