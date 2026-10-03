@@ -1,13 +1,6 @@
 'use strict';
 
-/**
- * End-to-end simulation exercising the chain described across Sections
- * 1-20: two devices trading signed tokens over NFC/Bluetooth/Sound while
- * fully offline, then reconnecting to a real HTTP reconciliation server,
- * including a double-spend attempt (Section 8.4/13), an expired token
- * (Section 9), a wallet-cap breach (Section 15.6), and offline revocation
- * (Section 15.4).
- */
+
 
 const path = require('path');
 const fs = require('fs');
