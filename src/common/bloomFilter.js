@@ -9,6 +9,7 @@
 
 const crypto = require('crypto');
 
+
 function djb2(str) {
   let hash = 5381;
   for (let i = 0; i < str.length; i++) {
