@@ -17,6 +17,7 @@ function show(label, obj) {
   console.log(`  ${label}:`, JSON.stringify(obj));
 }
 
+
 async function craftTokenBypassingSoftChecks(wallet, payeeId, amount, counterOverride) {
 
   const body = buildTokenBody({
