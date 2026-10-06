@@ -10,7 +10,6 @@
  * garbage is rejected cheaply; rate-limiting before auth would let an
  * attacker burn CPU on invalid signatures at scale.
  */
-
 const express = require('express');
 const { v4: uuidv4 } = require('uuid');
 const { verifyPayload } = require('../crypto/keys');
