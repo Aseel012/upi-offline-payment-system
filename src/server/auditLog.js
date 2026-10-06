@@ -6,7 +6,6 @@
  * with the history is detectable. Also used server-side as the canonical
  * event trail for Section 20 - OPERATIONS (support/runbook investigations).
  */
-
 const { sha256Hex } = require('../crypto/keys');
 
 const GENESIS_HASH = '0'.repeat(64);
