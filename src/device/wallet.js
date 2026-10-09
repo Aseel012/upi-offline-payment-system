@@ -6,7 +6,6 @@
  * Nothing on-device is ever final - it's provisional until the server
  * (permanent truth) reconciles it.
  */
-
 const { v4: uuidv4 } = require('uuid');
 const { KeyStore, verifyPayload } = require('../crypto/keys');
 const { buildTokenBody, isShapeValid } = require('../common/tokenSchema');
