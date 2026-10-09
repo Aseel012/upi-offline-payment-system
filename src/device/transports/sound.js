@@ -34,7 +34,6 @@ class SoundTransport {
     }
     return out;
   }
-
   _majorityDecode(copies) {
     const length = copies[0].length;
     const decoded = Buffer.alloc(length);
