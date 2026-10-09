@@ -5,6 +5,7 @@
  * NFC. Section 5: still just a byte-mover, no money logic here.
  */
 
+
 class BluetoothTransport {
   constructor({ latencyMs = 80, pairingDelayMs = 120 } = {}) {
     this.latencyMs = latencyMs;
