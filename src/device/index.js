@@ -1,5 +1,6 @@
 'use strict';
 
+
 const { Wallet } = require('./wallet');
 const { SyncClient } = require('./syncClient');
 const { NfcTransport } = require('./transports/nfc');
