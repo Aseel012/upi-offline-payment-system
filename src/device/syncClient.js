@@ -1,11 +1,4 @@
 'use strict';
-
-/**
- * Section 5 - Sync Client (on-device): batches queued tokens, talks to the
- * server when online. Section 7: the sync request itself must be signed -
- * it's moving money.
- */
-
 const { v4: uuidv4 } = require('uuid');
 const { DEVICE_STATE } = require('../common/constants');
 
